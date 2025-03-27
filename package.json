@@ -1,0 +1,13 @@
+{
+    "name" : "computaco-distribuida",
+    "version": "1.0.0",
+    "description": "Exemplo de app com rabbimq",
+    "main": "producer.js",
+    "scripts": {
+        "Start-producer": "node producer.js",
+        "start-consumer": "node consumer.js"
+    },
+    "dependencies": {
+        "amqplib": "^0.10.5"
+    }
+}
